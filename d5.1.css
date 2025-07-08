@@ -1,0 +1,270 @@
+.main{
+    padding: 24px 80px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.no-decor{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family:sans-serif;
+}
+section{
+    padding:60px 80px;                                                                      ;
+}
+.section1{
+    display: flex;
+}
+.right{
+    width: 50%;
+}
+.hero-img {
+    width: 100%;
+}
+.left{
+    width: 50%;
+}
+.intro{
+    font-size: 60px;
+    font-family: sans-serif;
+}
+.developer{
+    text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: white;
+}
+.introsecond{
+    font-size: 18px;
+}
+.socials{
+    display: flex;
+    justify-content: left;
+    gap: 20PX;
+    margin-top: 20PX;
+}
+.myskills{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 8px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 50px;
+   padding-bottom: 30px;
+}
+.icons{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 60px;
+    row-gap: 60px;
+    padding: 20px 0px;
+}
+.gridimg{
+    width: 100%;
+}
+.section2{
+    padding: 60px 80px;
+   
+}
+.section3{
+    padding:60px 80px;
+    background-color: black;
+    color: white;  
+}
+.sec3div1{
+    padding: 0px 32px; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+.myexp{
+    padding: 20px 0px;
+}
+.experience{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.exp1{
+    padding: 40px 24px;
+    border: 2px solid;
+    border-radius: 8px;
+}
+.img1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.inner2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec4div1{
+    padding: 0px 32px;
+    display: flex;
+    gap: 60px;
+}
+.aboutme{
+    font-size: 60px;
+    margin-top: auto;
+    font-family: sans-serif;
+}
+.sec5div1{
+    padding: 0px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sec5div2{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+.section5{
+    padding:60px 80px;
+    background-color: black;
+}
+.myprojects{
+    font-size: 60px;
+    font-family: sans-serif;
+    color: white;
+}
+.sec5div3{
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.projects01{
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+.projects02{
+    font-size: 35px;
+    font-family: sans-serif;
+    color: white;
+}
+.projects03{
+    color: lightslategray;
+    font-family: sans-serif;
+}
+.sec6div1{
+    padding: 0px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sec6div2{
+    padding: 20px 0px;
+    justify-content: center;
+    display: flex;
+}
+.h1sec6{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.sec6div3{
+    padding: 40px 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sec6div4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 40px 40px;
+    box-shadow: 0px 0px 10px 1px grey;
+}
+.line{
+    width: 120px;
+    height: 2px;
+    background-color: black;
+}
+.line2{
+    background-color: white;
+}
+.sec6div5{
+    align-items: center;
+
+}
+.content1{
+   text-align: center;
+   
+}
+.content2{
+    background-color: black;
+    color: white;
+}
+.sec7div1{
+    padding: 0px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftsec7{
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+input {
+    width: 500px;
+    height: 35px;
+    padding: 5px;
+}
+.help{
+    height: 140px;
+    padding: 5px;
+    font-family: sans-serif;
+}
+.sec7div2{
+    display: flex;
+    gap: 20px;
+}
+.h1sec7{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.h2sec7{
+    font-size: 30px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 24px 80px;
+}
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 32px;
+}
+.enddiv{
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    margin: 0px;
+}
